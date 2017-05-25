@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javax.persistence-2.0.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../develop/Opoveschenie/lib/eclipselink/javax.persistence-2.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
