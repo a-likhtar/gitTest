@@ -1,0 +1,89 @@
+#spittersTable tr {
+    border-bottom:1px solid rgb(0, 102, 153);
+    border-collapse: collapse;
+    font-family:Tahoma;
+    font-size: 1em;
+    color: black;
+}
+
+#newSpitterTable tr, #editSpittersTable tr{
+    border-collapse: collapse;
+    font-family:Tahoma;
+    font-size: 1em;
+    color: black;
+}
+
+#newSpitterTable td, #editSpittersTable td{
+    padding: 5px;
+}
+#newSpitterTable tr td input {
+    height: 30px;
+    border:1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+
+#editSpittersTable tr td input{
+    height:20px;
+    border:1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#spittersTable th{
+    padding:10px;
+}
+#header {
+    font-family: Tahoma;
+    font-size: 40px;
+    margin:10px;
+    font-weight: normal;
+}
+
+#spittersTable td {
+    padding:20px;
+}
+#spittersTable tr:last-child {
+    border:0;
+}
+
+#spittersTable input[type="submit"], #newSpitterTable input[type="submit"], #editSpittersTable input[type="submit"] {
+    padding:10px 25px;
+    font-size: 1em;
+    color: ghostwhite;
+    background: rgb(0, 102, 153);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 4px white;
+}
+
+#newSpitterTable input[type="submit"], #editSpittersTable input[type="submit"] {
+    height:auto;
+}
+
+#deleteSpitter {
+    text-decoration: none;
+    color: red;
+}
+
+#editSpitter{
+    text-decoration: none;
+    color: greenyellow;
+    padding:10px;
+}
+
+
+#deleteSpitter:hover {
+    color: darkred;
+}
+
+#editSpitter:hover {
+    color: green;
+}
+
+#addSpitterHeader, #editSpitterHeader{
+    padding:5px;
+    font-family: Tahoma;
+}
+
