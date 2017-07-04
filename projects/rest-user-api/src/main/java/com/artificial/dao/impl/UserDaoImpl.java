@@ -8,9 +8,7 @@ import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-/**
- * Created by requi on 04.07.2017.
- */
+
 @Repository
 public class UserDaoImpl implements UserDao {
 
@@ -19,7 +17,7 @@ public class UserDaoImpl implements UserDao {
 
     public User get(Integer id) {
         Session session = sessionFactory.openSession();
-        User user = session.load(User.class, id);
+        User user = session.get(User.class, id);
 
         return user;
     }
